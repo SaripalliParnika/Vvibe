@@ -1,0 +1,34 @@
+:root {
+  --primary: #2DD7B5;
+  --accent: #CBA1FF;
+  --background: #FFFFFF;
+  --card: #F4F4F4;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background);
+}
+
+button {
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card {
+  background-color: var(--card);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.story-ring {
+  border: 3px solid var(--accent);
+  border-radius: 50%;
+  padding: 3px;
+}
